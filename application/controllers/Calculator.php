@@ -15,7 +15,7 @@ class Calculator extends CI_Controller {
 	public function index()
 	{
 		//$this->load->view('welcome_message');
-		echo "nishant soni". PHP_EOL;
+		echo "Welcome to the project..!! use ADD function for functionalities..!!". PHP_EOL;
 	}
 
 	//function to handle only 2 values
