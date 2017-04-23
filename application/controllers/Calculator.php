@@ -7,7 +7,7 @@ class Calculator extends CI_Controller {
 		parent::__construct();
 		//check if input from CLI or not
 		if(!$this->input->is_cli_request()){
-       echo 'Only CLI request is allowed..!!';
+       echo 'Only CLI request is allowed..!!!';
        exit();
     }
 	}
